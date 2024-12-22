@@ -1,15 +1,16 @@
 .searchBox {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
   align-items: center;
   justify-content: center;
   padding: 10px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 305px;
   gap: 10px;
   border: 2px solid rgb(71, 57, 182);
   border-radius: 8px;
   box-shadow: 2px 2px 4px 4px grey;
-  margin: 20px 90px;
+  margin: 20px auto;
 }
 
 .label {
